@@ -8,17 +8,32 @@ npm install reverser
 
 ## Usage
 
+
+
 ```javascript
 var Reverser = require('reverser');
 
 var reverser = new Reverser({});
 
-reverser.add("/ajax/*", 'hostname:8080');
+reverser.register("/ajax/*", 'hostname:8080');
 
-reverser.add(/ajax/, 'hostname:8080');
+reverser.register("/post|get", 'hostname1');
+
+// connect
+var app = require('connect')();
+
+// or express
+var app = require('express')();
+
+
+app.use(reverser.serve);
+
+// or forward with shorted path
+app.use('/proxy', reverser.serve);
 
 ```
 
+See [routington](router ) for the register path syntax
 
 ## License
 

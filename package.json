@@ -1,14 +1,22 @@
 {
   "name": "reverser",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A reverse proxy middleware for connect/express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "",
-  "keywords": ["express", "connect", "reverse", "proxy"],
-  "dependencies": {},
+  "keywords": [
+    "express",
+    "connect",
+    "reverse",
+    "proxy"
+  ],
+  "dependencies": {
+    "http-proxy": "^1.1.4",
+    "routington": "^0.1.3"
+  },
   "devDependencies": {
     "jshint": "~2.1.9",
     "mocha": "~1.12.0",
