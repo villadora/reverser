@@ -1,6 +1,6 @@
 {
   "name": "reverser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A reverse proxy middleware for connect/express",
   "main": "index.js",
   "scripts": {
