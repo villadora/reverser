@@ -1,3 +1,5 @@
+var assert = require('assert');
+
 var reverser = require('../index');
 
 describe('router', function() {
