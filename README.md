@@ -1,4 +1,7 @@
-# Reverser [![NPM version](https://badge.fury.io/js/reverser.svg)](http://badge.fury.io/js/reverser) [![Build Status](https://travis-ci.org/villadora/reverser.svg?branch=master)](https://travis-ci.org/villadora/reverser) [![Dependency Status](https://gemnasium.com/villadora/reverser.svg)](https://gemnasium.com/villadora/reverser)
+# Reverser 
+[![NPM version](https://badge.fury.io/js/reverser.svg)](http://badge.fury.io/js/reverser) [![Build Status](https://travis-ci.org/villadora/reverser.svg?branch=master)](https://travis-ci.org/villadora/reverser) [![Dependency Status](https://gemnasium.com/villadora/reverser.svg)](https://gemnasium.com/villadora/reverser)
+
+A reverse proxy middleware for connect/express
 
 ## Install
 
